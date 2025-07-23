@@ -12,10 +12,6 @@ struct ContentView: View {
     @State private var showCamera = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
             Button(action: { showCamera = true }) {
                 Text("Find My Glasses")
                     .font(.title2)
