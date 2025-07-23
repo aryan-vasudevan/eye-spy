@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B84125542E3124B10005AD2B /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = B84125532E3124B10005AD2B /* Roboflow */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B84125362E31249B0005AD2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84125542E3124B10005AD2B /* Roboflow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "eye-spy";
 			packageProductDependencies = (
+				B84125532E3124B10005AD2B /* Roboflow */,
 			);
 			productName = "eye-spy";
 			productReference = B84125282E31249A0005AD2B /* eye-spy.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = B841251F2E31249A0005AD2B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B84125292E31249A0005AD2B /* Products */;
 			projectDirPath = "";
@@ -400,6 +409,7 @@
 				DEVELOPMENT_TEAM = BUKYCFMPL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to help you find your glasses.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +438,7 @@
 				DEVELOPMENT_TEAM = BUKYCFMPL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to help you find your glasses.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +569,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roboflow/roboflow-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B84125532E3124B10005AD2B /* Roboflow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */;
+			productName = Roboflow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B84125202E31249A0005AD2B /* Project object */;
 }
