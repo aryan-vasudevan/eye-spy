@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B84125542E3124B10005AD2B /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = B84125532E3124B10005AD2B /* Roboflow */; };
+		B84125702E32B8280005AD2B /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = B841256F2E32B8280005AD2B /* Roboflow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84125542E3124B10005AD2B /* Roboflow in Frameworks */,
+				B84125702E32B8280005AD2B /* Roboflow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = "eye-spy";
 			packageProductDependencies = (
-				B84125532E3124B10005AD2B /* Roboflow */,
+				B841256F2E32B8280005AD2B /* Roboflow */,
 			);
 			productName = "eye-spy";
 			productReference = B84125282E31249A0005AD2B /* eye-spy.app */;
@@ -202,7 +202,7 @@
 			mainGroup = B841251F2E31249A0005AD2B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */,
+				B841256E2E32B8280005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B84125292E31249A0005AD2B /* Products */;
@@ -571,20 +571,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
+		B841256E2E32B8280005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roboflow/roboflow-swift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.3;
+				branch = "add-rfdetr";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B84125532E3124B10005AD2B /* Roboflow */ = {
+		B841256F2E32B8280005AD2B /* Roboflow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B84125522E3124B10005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */;
+			package = B841256E2E32B8280005AD2B /* XCRemoteSwiftPackageReference "roboflow-swift" */;
 			productName = Roboflow;
 		};
 /* End XCSwiftPackageProductDependency section */

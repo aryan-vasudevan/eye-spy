@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/roboflow/roboflow-swift.git",
       "state" : {
-        "revision" : "23eff7f182b0e7d332f7088aafc3582cf91330ac",
-        "version" : "1.2.3"
+        "branch" : "add-rfdetr",
+        "revision" : "a06c3d1146d179ed5fac12da873a29c65f2edc83"
       }
     }
   ],
